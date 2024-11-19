@@ -12,6 +12,9 @@ Enthusiastic Supply Chain Management student proficient in SAP ERP, OTC cycle, a
 **Master of Science in Supply Chain Management** - December 2025  
 **GPA:** 3.9/4.0
 
+## Projects
+
+
 ## Professional Experience
 **Cognitus**  
 *Associate Consultant*  
