@@ -1,7 +1,10 @@
 # Shashidhar Rao Neredikomma
 **Phone:** (314) 267-1900  
-**Email:** shashidharraoneredikomma@gmail.com  
+**Email:** shashidharraoneredikomma@gmail.com(mailto: shashidharraoneredikomma@gmail.com)
+LinkedIn Shashidhar Rao Neredikomma
 **Location:** USA
+
+---
 
 ## Summary
 Enthusiastic Supply Chain Management student proficient in SAP ERP, OTC cycle, and Material Management, coupled with hands-on e-commerce experience. Possesses strategic analytical and planning skills.
