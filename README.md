@@ -1,5 +1,5 @@
 # Shashidhar Rao Neredikomma
-(314) 267-1900 | [shashidharraoneredikomma@gmail.com](mailto:shashidharraoneredikomma@gmail.com) | [[LinkedIn](www.linkedin.com/in/shashidhar-rao-neredikomma)] | [Github](https://github.com/shashi0001) | USA
+(314) 267-1900 | [shashidharraoneredikomma@gmail.com](mailto:shashidharraoneredikomma@gmail.com) | [LinkedIn(www.linkedin.com/in/shashidhar-rao-neredikomma)] | [Github](https://github.com/shashi0001) | USA
 
 ---
 
