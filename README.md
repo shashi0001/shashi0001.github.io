@@ -1,6 +1,5 @@
 # Shashidhar Rao Neredikomma
-(314) 267-1900 | [shashidharraoneredikomma@gmail.com](mailto:shashidharraoneredikomma@gmail.com) | [LinkedIn](www.linkedin.com/in/shashidhar-rao-neredikomma) | [Github](https://github.com/shashi0001) | USA
-
+(314) 267-1900 | [shashidharraoneredikomma@gmail.com](mailto:shashidharraoneredikomma@gmail.com) | [LinkedIn](https://www.linkedin.com/in/shashidhar-rao-neredikomma/) | [Github](https://github.com/shashi0001) | USA
 ---
 
 ## Summary
@@ -10,7 +9,7 @@ Enthusiastic Supply Chain Management student proficient in SAP ERP, OTC cycle, a
 **Saint Louis University - Richard A. Chaifetz School of Business**  
 *St. Louis, MO*  
 **Master of Science in Supply Chain Management** - December 2025  
-**GPA:** 3.9/4.0
+**GPA:** 3.97/4.0
 
 ## Projects
 
