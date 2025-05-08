@@ -55,3 +55,4 @@ Enthusiastic Supply Chain Management student proficient in SAP ERP, OTC cycle, a
 - Inventory Management
 - Logistics
 - Tableau
+- Git
