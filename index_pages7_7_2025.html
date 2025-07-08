@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashidhar Rao Neredikomma - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Simple animation for section fade-in */
+        .fade-in-section {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in-section.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gray-900">Shashidhar Rao N.</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#about" class="text-gray-600 hover:text-gray-900 transition duration-300">About</a>
+                <a href="#experience" class="text-gray-600 hover:text-gray-900 transition duration-300">Experience</a>
+                <a href="#projects" class="text-gray-600 hover:text-gray-900 transition duration-300">Projects</a>
+                <a href="#education" class="text-gray-600 hover:text-gray-900 transition duration-300">Education</a>
+                <a href="#contact" class="text-gray-600 hover:text-gray-900 transition duration-300">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-600 hover:text-gray-900 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pt-2 pb-4">
+            <a href="#about" class="block py-2 text-gray-600 hover:text-gray-900">About</a>
+            <a href="#experience" class="block py-2 text-gray-600 hover:text-gray-900">Experience</a>
+            <a href="#projects" class="block py-2 text-gray-600 hover:text-gray-900">Projects</a>
+            <a href="#education" class="block py-2 text-gray-600 hover:text-gray-900">Education</a>
+            <a href="#contact" class="block py-2 text-gray-600 hover:text-gray-900">Contact</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+
+        <!-- About Section -->
+        <section id="about" class="fade-in-section min-h-screen flex flex-col md:flex-row items-center justify-center py-20">
+            <div class="md:w-1/3 text-center md:text-left mb-10 md:mb-0">
+                <img src="https://media.licdn.com/dms/image/v2/D4D03AQG_us61gN3jJA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1714034771647?e=1757548800&v=beta&t=az1kWODwS62cCkSmcdF2iMg9nn_q2ceyTOYCKc1bFbU" alt="Profile Photo" class="w-64 h-64 rounded-full mx-auto md:mx-0 shadow-lg object-cover">
+            </div>
+            <div class="md:w-2/3 md:pl-12">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Hi, I'm Shashidhar Rao Neredikomma</h1>
+                <p class="text-xl text-gray-600 mb-6">Enthusiastic Supply Chain Management student proficient in SAP ERP, OTC cycle, and Material Management, coupled with hands-on e-commerce experience. Possesses strategic analytical and planning skills.</p>
+                <p class="text-lg text-gray-500 mb-8"></p>
+                <a href="#contact" class="bg-gray-800 text-white font-bold py-3 px-6 rounded-lg hover:bg-gray-700 transition duration-300">Get In Touch</a>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="fade-in-section py-20">
+            <h2 class="text-3xl font-bold text-center mb-12">Work Experience</h2>
+            <div class="max-w-3xl mx-auto">
+                <!--Job 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-md mb-8">
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="text-2xl font-semibold">Graduate Teaching Assistant</h3>
+                        <span class="text-gray-500">October 2024 - Present</span>
+                    </div>
+                    <h4 class="text-xl font-medium text-gray-700 mb-4">Richard A. Chaifetz School of Business</h4>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Assisted professors in training the students in SAP ERP and SQL</li>
+                        <li>Taught OTC and PTP cycles to Undergrad and Graduate students</li>
+                        <li>Setup SAP system to run simulations required for coursework.</li>
+                        <li>Resolved any issues faced by students while running the SAP simulations.</li>
+                        <li>Monitored Simulation reports of students and provided insghts</li>
+                        <li>Assisted in Grading coursework related to SQL</li>
+                    </ul>
+                </div>
+                <!-- Job 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-md mb-8">
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="text-2xl font-semibold">Asscoiate Consultant</h3>
+                        <span class="text-gray-500">October 2021 - December 2023</span>
+                    </div>
+                    <h4 class="text-xl font-medium text-gray-700 mb-4">Cognitus</h4>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Assisted in Greenfield SAP S/4HANA implementation.</li>
+                        <li>Tested end-to-end OTC cycles for smooth functioning.</li>
+                        <li>Created end-user training documents.</li>
+                        <li>Participated in hypercare after the project go live and resolved the issues without impacting the business in less than 2 days.</li>
+                        <li>Developed custom delivery and invoice forms as per the business requirement.</li>
+                        <li>Developed custom functionality for the 2-step invoice approval process.</li>
+                        <li>Handled multiple minor changes in SAP MM, PP, and QM related processes.</li>
+                        <li>Modified multiple forms to meet the requirements.</li>
+                        <li>Made changes to SAP ERP config for a smooth business run.</li>
+                        <li>Configured 3 end-to-end OTC processes during Greenfield implementation.</li>
+                        <li>Handled 3 clients simultaneously without any mishaps and delivered the requirements on time with utmost accuracy.</li>
+                        <li>Collaborated with 5 different teams during the implementation and made the project a success.</li>
+                    </ul>
+                </div>
+                <!-- Job 3 -->
+                <div class="bg-white p-8 rounded-lg shadow-md mb-8">
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="text-2xl font-semibold">Operations Intern</h3>
+                        <span class="text-gray-500">April 2021 - October 2021</span>
+                    </div>
+                    <h4 class="text-xl font-medium text-gray-700 mb-4">Eunimart</h4>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Generated successful leads for onboarding.</li>
+                        <li>Onboarded 6 major contributing customers into the company.</li>
+                        <li>Assisted the Indian vendors to reach global markets around 11 countries through cross-border e-commerce.</li>
+                        <li>Managed multiple vendor accounts across different global e-commerce platforms.</li>
+                        <li>Analyzed and prepared successful strategies to boost sales in global e-commerce platforms like eBay, Amazon, Bonanza and Etsy.</li>
+                        <li>Improving the sales led to an increase of around 20% in the customers' profits.</li>
+                        <li>Played a crucial role in retaining old customers while onboarding new customers.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="fade-in-section py-20 bg-gray-100 -mx-6 px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">My Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                    <img src="https://placehold.co/600x400/9CA3AF/FFFFFF?text=Project+1" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Project Title One</h3>
+                        <p class="text-gray-600 mb-4">A brief description of the project. What it does, why you built it, and what technologies were used.</p>
+                        <a href="#" class="text-gray-800 font-semibold hover:underline">View Project &rarr;</a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                    <img src="https://placehold.co/600x400/A78BFA/FFFFFF?text=Project+2" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Project Title Two</h3>
+                        <p class="text-gray-600 mb-4">A brief description of the project. What it does, why you built it, and what technologies were used.</p>
+                        <a href="#" class="text-gray-800 font-semibold hover:underline">View Project &rarr;</a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                    <img src="https://placehold.co/600x400/FBBF24/FFFFFF?text=Project+3" alt="Project 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Project Title Three</h3>
+                        <p class="text-gray-600 mb-4">A brief description of the project. What it does, why you built it, and what technologies were used.</p>
+                        <a href="#" class="text-gray-800 font-semibold hover:underline">View Project &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="fade-in-section py-20">
+            <h2 class="text-3xl font-bold text-center mb-12">Education</h2>
+            <div class="max-w-3xl mx-auto">
+                <!-- Degree 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-md mb-8">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-2xl font-semibold">M.S. in Supply Chain Management</h3>
+                        <span class="text-gray-500">2023 - 2025</span>
+                    </div>
+                    <p class="text-lg text-gray-700">Saint Louis University</p>
+                </div>
+                <!-- Degree 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-2xl font-semibold">B.Tech in Mechanical Engineering</h3>
+                        <span class="text-gray-500">2017 - 2021</span>
+                    </div>
+                    <p class="text-lg text-gray-700">Malla Reddy College of Engineering and Technology</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+            <p class="text-gray-400 mb-8">Feel free to reach out!</p>
+            <p class="text-xl mb-8">
+                <a href="mailto:shashidharraoneredikomma@gmail.com" class="hover:underline">shashidharraoneredikomma@gmail.com</a>
+            </p>
+            <!-- Social Media Icons -->
+            <div class="flex justify-center space-x-6">
+                <a href="https://github.com/shashi0001/" class="text-gray-400 hover:text-white transition duration-300">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.838 9.49.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.03-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.378.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd" /></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/shashidhar-rao-neredikomma/" class="text-gray-400 hover:text-white transition duration-300">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.336 9.763H6.34v-8.59H3.669v8.59zM17.668 1H6.328C3.965 1 2 2.985 2 5.355v13.29C2 21.015 3.965 23 6.328 23h11.34c2.363 0 4.332-1.985 4.332-4.355V5.355C22 2.985 20.031 1 17.668 1z" clip-rule="evenodd" /></svg>
+                </a>
+            </div>
+            <p class="mt-8 text-gray-500 text-sm">&copy; 2025 Shashidhar Rao Neredikomma. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileMenuLinks = mobileMenu.getElementsByTagName('a');
+        for (let link of mobileMenuLinks) {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        }
+
+        // Intersection Observer for fade-in animations
+        const sections = document.querySelectorAll('.fade-in-section');
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            rootMargin: '0px',
+            threshold: 0.1
+        });
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
